@@ -1,0 +1,12 @@
+#!/usr/bin/make -f
+
+# Uncomment this to turn on verbose mode.
+#export DH_VERBOSE=1
+
+%:
+	dh $@
+
+override_dh_auto_install:
+	mkdir -p $(PWD)/debian/tmp/usr/share/backgrounds/crowdos
+	cp -a backgrounds/*.jpg $(PWD)/debian/tmp/usr/share/backgrounds/crowdos
+	dh_install --fail-missing
