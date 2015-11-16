@@ -6,6 +6,7 @@ Maintainer: Mohammed Sameer <msameer@foolab.org>
 Standards-Version: 3.9.5
 
 Package: crowdos-backgrounds
+Provides: backgrounds
 Architecture: any
 Description: Backgrounds for CrowdOS
  Backgrounds for CrowdOS
