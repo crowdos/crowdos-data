@@ -9,4 +9,6 @@
 override_dh_auto_install:
 	mkdir -p $(PWD)/debian/tmp/usr/share/backgrounds/crowdos
 	cp -a backgrounds/*.jpg $(PWD)/debian/tmp/usr/share/backgrounds/crowdos
+	mkdir -p $(PWD)/debian/tmp/usr/share/icons/crowdos
+	cp -a icons/*.svg $(PWD)/debian/tmp/usr/share/icons/crowdos
 	dh_install --fail-missing

@@ -10,3 +10,9 @@ Provides: backgrounds
 Architecture: any
 Description: Backgrounds for CrowdOS
  Backgrounds for CrowdOS
+
+Package: crowdos-icons
+Provides: icons
+Architecture: any
+Description: Icons for CrowdOS
+ Icons for CrowdOS
