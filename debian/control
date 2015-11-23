@@ -7,12 +7,12 @@ Standards-Version: 3.9.5
 
 Package: crowdos-backgrounds
 Provides: backgrounds
-Architecture: any
+Architecture: all
 Description: Backgrounds for CrowdOS
  Backgrounds for CrowdOS
 
 Package: crowdos-icons
 Provides: icons
-Architecture: any
+Architecture: all
 Description: Icons for CrowdOS
  Icons for CrowdOS
