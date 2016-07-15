@@ -1,3 +1,10 @@
+crowdos-data (0.20160715.0) unstable; urgency=medium
+
+  * [e7a34b2] Add forgotten crowdos-icons.install
+  * [1a6500a] add gbp configuration
+
+ -- Mohammed Sameer <msameer@foolab.org>  Fri, 15 Jul 2016 18:04:42 +0300
+
 crowdos-data (0.20151110.0) unstable; urgency=medium
 
   * Initial release.
